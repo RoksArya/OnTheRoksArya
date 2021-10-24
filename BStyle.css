@@ -1,0 +1,133 @@
+s*{
+ padding:0;
+ margin:0;
+}
+#game{
+    position: relative;
+     height: 95vh;
+     /* border: solid black; */
+     
+     place-content: center;
+     background-color: cornflowerblue;
+}
+#topCrox{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: hsl(115, 96%, 22%);
+}
+#Arena{
+    position: relative  ;
+    width: 75%;
+    height: 90vh;
+    border: 2px solid black;
+    margin: auto;
+    
+}
+#bball{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 440px;
+    left: 5px;
+    z-index: 1000000; 
+}
+.block{
+        width: 100%;
+        height: 20px;
+        background-color: black;
+        position: absolute         ;
+        top: 100px;
+        margin-top: -20px;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: cornflowerblue;
+    position: absolute        ;
+    top: 100px;
+    margin-top: -20px;
+
+}
+.poit{
+    width: 15px;
+    height: 15px;
+    background-color:#ff0000;
+    border-radius: 27%;
+    position: absolute ;
+    top: 140px;
+    margin-top: -20px;
+}/*
+.animate{
+    animation : fade 1s ease forwards;
+}
+
+ @keyframes fade{
+     from{
+         opacity: 1;
+     }
+     to{
+         opacity:  0;
+     }
+ } */
+ .footer{
+    
+/*    position:  fixed;
+       bottom: 0;
+       left: 50%;
+       transform: translateX(-50%);
+   display: flex;
+   /* border: solid beige; */
+   /* flex-direction: row; */
+   /* align-items: flex-end; */
+   float: right;
+   /* width:12.5%;    */
+   padding-right: 20px;
+   position: absolute;
+   top: 50%;
+   right: 0;
+  
+  /* transform: translateY(-50);  */
+  /* padding-top: 20px; */
+  
+     gap: 40px;
+   background-color: cornflowerblue;
+   } 
+@media (min-width: 576px){
+   
+   #size{
+       color: red;
+   }
+   .text{
+       color: red;
+   }
+ .hole{
+  background-color:rgb(185, 19, 19);
+ }
+   #game{
+    background-color:rgb(185, 19, 19);
+   }
+   .footer{
+       float: right;
+     /* width:12.5%;    */
+     padding-right: 20px;
+     position: absolute;
+     top: 50%;
+     right: 0;
+     gap: 40px;
+    transform: translateY(50); 
+    /* padding-top: 20px; */
+    background-color:rgb(185, 19, 19);
+    /* justify-content: flex-end; */
+    /* align-content: center;
+    float: left;
+    flex-direction: column; */
+        
+   }
+
+
+}
