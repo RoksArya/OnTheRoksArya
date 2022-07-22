@@ -10,7 +10,7 @@ const h=60*m;
 const d=24*h;
 
 const countdown = () =>{
-    const countTo = new Date("Jan 31, 2022 00:00:00").getTime();
+    const countTo = new Date("Jan 31, 2023 00:00:00").getTime();
     console.log(countTo);
     const now= new Date().getTime();
     const gap = countTo - now;
